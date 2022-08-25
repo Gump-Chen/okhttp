@@ -69,6 +69,8 @@ fun X509Certificate.certificatePem(): String {
     append("-----BEGIN CERTIFICATE-----\n")
     encodeBase64Lines(encoded.toByteString())
     append("-----END CERTIFICATE-----\n")
+
+    /// 测试
   }
 }
 
